@@ -14,7 +14,7 @@ extension EndPoint {
             return self.rawValue.characters.split(separator: "/").map {
 					$0[$0.startIndex] != "{" ?
                         String($0)
-                        : (replacements.removeFirst() as NSString).addingPercentEncoding(withAllowedCharacters: .urlHostAllowed())!
+                        : (replacements.removeFirst() as NSString).addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
 				}.joined(separator: "/")
 		}
 		return self.rawValue

@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Register Nick View Controller-->
@@ -15,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L25-dl-vLx">
-                                <rect key="frame" x="150" y="205" width="300" height="189"/>
+                                <rect key="frame" x="37.5" y="239" width="300" height="189"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHM-8Q-eVF">
                                         <rect key="frame" x="87" y="151" width="126" height="30"/>
@@ -33,7 +37,7 @@
                                         <string key="text">Choose &amp; register a unique nickname.
 This nick will identify you within the game.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2k2-io-RuD">
@@ -45,7 +49,7 @@ This nick will identify you within the game.</string>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="gex-Uo-7lY" firstAttribute="top" secondItem="L25-dl-vLx" secondAttribute="top" constant="8" id="30K-e3-eyf"/>
                                     <constraint firstItem="gex-Uo-7lY" firstAttribute="leading" secondItem="L25-dl-vLx" secondAttribute="leading" id="A4P-4J-zoZ"/>
@@ -65,7 +69,7 @@ This nick will identify you within the game.</string>
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="L25-dl-vLx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BZE-EV-Aba"/>
                             <constraint firstItem="L25-dl-vLx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hle-i5-LQw"/>
@@ -89,11 +93,11 @@ This nick will identify you within the game.</string>
                         <viewControllerLayoutGuide type="bottom" id="aOb-70-2Ap"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="22y-uB-RkH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUU-Vb-gmn">
-                                <rect key="frame" x="180" y="214" width="240" height="172"/>
+                                <rect key="frame" x="67.5" y="247.5" width="240" height="172"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpX-XJ-6vJ">
                                         <rect key="frame" x="84" y="8" width="73" height="30"/>
@@ -117,7 +121,7 @@ This nick will identify you within the game.</string>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="qtX-Z9-GLs" secondAttribute="bottom" constant="8" id="2Ak-MN-elF"/>
                                     <constraint firstAttribute="width" constant="240" id="2mR-Y6-vdc"/>
@@ -130,7 +134,7 @@ This nick will identify you within the game.</string>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ZUU-Vb-gmn" firstAttribute="centerX" secondItem="22y-uB-RkH" secondAttribute="centerX" id="5Nu-jn-MQy"/>
                             <constraint firstItem="ZUU-Vb-gmn" firstAttribute="centerY" secondItem="22y-uB-RkH" secondAttribute="centerY" id="LAD-4M-03n"/>
@@ -150,15 +154,15 @@ This nick will identify you within the game.</string>
             <objects>
                 <tableViewController id="8vG-AS-Vlj" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yCO-Ur-PLd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kvd-qy-jnz">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kvd-qy-jnz" id="yIZ-hZ-jDj">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -182,16 +186,16 @@ This nick will identify you within the game.</string>
                         <viewControllerLayoutGuide type="bottom" id="NoG-TD-eLE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i69-Kf-66S">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vZ-Jz-Fh1">
-                                <rect key="frame" x="180" y="200" width="240" height="200"/>
+                                <rect key="frame" x="67.5" y="233.5" width="240" height="200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for Opponent…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JF2-EH-cWT">
                                         <rect key="frame" x="32" y="21" width="177" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fc5-1K-C3J">
@@ -202,7 +206,7 @@ This nick will identify you within the game.</string>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="JF2-EH-cWT" firstAttribute="top" secondItem="7vZ-Jz-Fh1" secondAttribute="top" constant="21" id="LbJ-Ve-UC4"/>
                                     <constraint firstItem="fc5-1K-C3J" firstAttribute="centerX" secondItem="7vZ-Jz-Fh1" secondAttribute="centerX" id="MZG-jn-f9c"/>
@@ -213,10 +217,10 @@ This nick will identify you within the game.</string>
                                 </constraints>
                             </view>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="JkE-LN-JfP">
-                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7vZ-Jz-Fh1" firstAttribute="centerX" secondItem="i69-Kf-66S" secondAttribute="centerX" id="abv-cN-V2h"/>
                             <constraint firstItem="JkE-LN-JfP" firstAttribute="centerX" secondItem="7vZ-Jz-Fh1" secondAttribute="centerX" id="cVF-Zl-HIe"/>
@@ -241,181 +245,181 @@ This nick will identify you within the game.</string>
                         <viewControllerLayoutGuide type="bottom" id="lmP-PB-dBh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EC0-eV-HnJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="04F-rk-zs1">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ED2-nC-1QA">
-                                        <rect key="frame" x="36" y="22" width="528" height="528"/>
+                                        <rect key="frame" x="21" y="22" width="333" height="333"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5GA-Rm-Z0F">
-                                                <rect key="frame" x="0.0" y="0.0" width="528" height="170.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="105.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wf9-eJ-gSA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="170.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="KfZ-R5-WgV">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0BK-fB-Amh" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbx-A1-Cx9" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-j9-anb" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UGW-of-H3N">
-                                                                <rect key="frame" x="0.0" y="58" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWf-4R-6gO" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LqI-It-TfD" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxb-VN-hj4" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="OlI-NO-zHR">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8W-IJ-mTB" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBR-YJ-Yf3" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iS7-tw-4KP" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TUl-vL-Xh3">
-                                                        <rect key="frame" x="178.5" y="0.0" width="171" height="170.5"/>
+                                                        <rect key="frame" x="113.5" y="0.0" width="106" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="kja-zq-L1o">
-                                                                <rect key="frame" x="0.0" y="0.0" width="171" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcc-IJ-VDp" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ptO-bL-jal" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXQ-O0-5Sa" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="H7F-be-xt3">
-                                                                <rect key="frame" x="0.0" y="58" width="171" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAC-fs-0nm" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLk-e0-fh1" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbT-xA-Skh" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="liV-EF-1J4">
-                                                                <rect key="frame" x="0.0" y="116.5" width="171" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kem-c1-f9I" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udE-WS-x5E" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-R5-jdN" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="K8V-24-jQd">
-                                                        <rect key="frame" x="357.5" y="0.0" width="170.5" height="170.5"/>
+                                                        <rect key="frame" x="227.5" y="0.0" width="105.5" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wOF-n6-gNd">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPO-BZ-XQe" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T24-Br-trS" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmK-RW-oTY" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UeA-B9-vTP">
-                                                                <rect key="frame" x="0.0" y="58" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HL9-Xm-Q2k" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vb0-xo-QQH" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6C3-Rf-lPT" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="syR-p3-CiB">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZv-IO-FRe" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9P-y6-iyr" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Umg-QC-SLE" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
@@ -424,171 +428,171 @@ This nick will identify you within the game.</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4Sr-lG-JNg">
-                                                <rect key="frame" x="0.0" y="178.5" width="528" height="171"/>
+                                                <rect key="frame" x="0.0" y="113.5" width="333" height="106"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="LCy-ck-XON">
-                                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="171"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="106"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="EK4-7G-Y89">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gYg-6T-nre" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xl-Hm-ocw" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DpI-pe-p9B" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-zA-G53">
-                                                                <rect key="frame" x="0.0" y="58.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="33"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pvT-sm-f7Y" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTL-Bm-GYC" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKw-M7-6io" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Jac-Ae-Zun">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="73.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhr-ZX-0AD" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g45-Dj-BzI" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bH-pz-jIV" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="48u-7T-kld">
-                                                        <rect key="frame" x="178.5" y="0.0" width="171" height="171"/>
+                                                        <rect key="frame" x="113.5" y="0.0" width="106" height="106"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="86n-iw-5o2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="171" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFi-PW-cRB" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QcJ-ef-SKx" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cu-Be-1qU" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="60P-cg-nxZ">
-                                                                <rect key="frame" x="0.0" y="58.5" width="171" height="54"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="106" height="33"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7I-rQ-X7E" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NqE-VK-j2C" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bic-DW-5v1" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CdX-yu-mic">
-                                                                <rect key="frame" x="0.0" y="116.5" width="171" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="73.5" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiV-VS-6a4" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKC-aZ-nFH" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Prk-Th-GpG" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="tcc-2Y-yw8">
-                                                        <rect key="frame" x="357.5" y="0.0" width="170.5" height="171"/>
+                                                        <rect key="frame" x="227.5" y="0.0" width="105.5" height="106"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="NpL-Ab-ZG5">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8j-9e-ud9" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msO-i8-sdt" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJp-l5-WP6" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yIS-Uy-JSF">
-                                                                <rect key="frame" x="0.0" y="58.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="33"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HlR-z6-tew" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrz-Zx-q6Y" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OeB-FQ-4e9" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="33"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Y7h-Eo-3Gk">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="73.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wvy-gJ-ilp" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpw-hf-kVv" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1jM-FL-yOl" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
@@ -597,171 +601,171 @@ This nick will identify you within the game.</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rm4-83-Npl">
-                                                <rect key="frame" x="0.0" y="357.5" width="528" height="170.5"/>
+                                                <rect key="frame" x="0.0" y="227.5" width="333" height="105.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="g5C-hE-Rio">
-                                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="170.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Vcg-Nd-DNb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-dW-YAd" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QER-aJ-FsX" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAl-Xk-Xlm" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Bdg-06-WrN">
-                                                                <rect key="frame" x="0.0" y="58" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIy-39-rD2" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQn-10-sI8" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uot-Pa-gIK" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vgj-zN-lBa">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQn-Fr-pEd" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7w-wb-cFn" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D27-gq-j4R" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Evd-Hw-MDa">
-                                                        <rect key="frame" x="178.5" y="0.0" width="171" height="170.5"/>
+                                                        <rect key="frame" x="113.5" y="0.0" width="106" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YR5-g7-DjZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="171" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvu-b8-COa" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HeG-s5-p2t" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pqq-Y5-bgV" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="g8J-ll-GYF">
-                                                                <rect key="frame" x="0.0" y="58" width="171" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYu-8I-8B0" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qHI-az-NQA" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3d-vK-nlq" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="iUE-ei-lOt">
-                                                                <rect key="frame" x="0.0" y="116.5" width="171" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="106" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cii-Sh-K9E" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhI-ze-ugd" customClass="UIImageView">
-                                                                        <rect key="frame" x="58.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="33" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2h-IH-OUa" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="q7f-bh-xxn">
-                                                        <rect key="frame" x="357.5" y="0.0" width="170.5" height="170.5"/>
+                                                        <rect key="frame" x="227.5" y="0.0" width="105.5" height="105.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PEG-RI-GA1">
-                                                                <rect key="frame" x="0.0" y="0.0" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kd6-1u-CaG" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GRw-aq-0dh" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYL-71-6zA" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="bab-f3-t8t">
-                                                                <rect key="frame" x="0.0" y="58" width="170.5" height="54.5"/>
+                                                                <rect key="frame" x="0.0" y="36.5" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h34-zZ-CWo" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bII-cP-vRq" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0G0-4Y-CtD" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54.5"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="77K-bD-dp1">
-                                                                <rect key="frame" x="0.0" y="116.5" width="170.5" height="54"/>
+                                                                <rect key="frame" x="0.0" y="73" width="105.5" height="32.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tX-Zf-cPn" customClass="UIImageView">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mu9-k0-qoW" customClass="UIImageView">
-                                                                        <rect key="frame" x="58" y="0.0" width="54.5" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="36.5" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lo-AC-b6I" customClass="UIImageView">
-                                                                        <rect key="frame" x="116.5" y="0.0" width="54" height="54"/>
-                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <rect key="frame" x="73" y="0.0" width="32.5" height="32.5"/>
+                                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     </view>
                                                                 </subviews>
                                                             </stackView>
@@ -770,7 +774,7 @@ This nick will identify you within the game.</string>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.98430997129999998" green="0.77254998679999998" blue="0.48234999179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.98430997129999998" green="0.77254998679999998" blue="0.48234999179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ED2-nC-1QA" secondAttribute="height" multiplier="1:1" id="F7A-bK-8B9"/>
                                             <constraint firstAttribute="width" secondItem="ED2-nC-1QA" secondAttribute="height" multiplier="1:1" id="a9m-gc-hSt"/>
@@ -782,7 +786,7 @@ This nick will identify you within the game.</string>
                                         </variation>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-2R-D3d">
-                                        <rect key="frame" x="420" y="562" width="140" height="30"/>
+                                        <rect key="frame" x="195" y="367" width="140" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="140" id="R02-3J-ej4"/>
                                         </constraints>
@@ -792,13 +796,13 @@ This nick will identify you within the game.</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw1-S6-bkt">
-                                        <rect key="frame" x="20" y="566" width="392" height="21"/>
+                                        <rect key="frame" x="20" y="356.5" width="167" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="04F-rk-zs1" secondAttribute="height" multiplier="1:1" id="1sp-Al-G3v"/>
                                     <constraint firstItem="ED2-nC-1QA" firstAttribute="top" secondItem="04F-rk-zs1" secondAttribute="top" constant="22" id="2KM-of-3Hu"/>
@@ -824,7 +828,7 @@ This nick will identify you within the game.</string>
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="04F-rk-zs1" firstAttribute="centerY" secondItem="EC0-eV-HnJ" secondAttribute="centerY" id="7TF-sq-hgH"/>
                             <constraint firstItem="04F-rk-zs1" firstAttribute="width" relation="lessThanOrEqual" secondItem="EC0-eV-HnJ" secondAttribute="width" id="I21-eb-HD8"/>

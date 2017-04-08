@@ -70,7 +70,7 @@ class PlayGameViewController: UIViewController {
 			gameState.concedeGame {
 				responseValue in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+				DispatchQueue.main.async() {
 					if case .successState(let state) = responseValue {
 						self.updateCurrentState(state: state)
 					} else {
@@ -95,7 +95,7 @@ class PlayGameViewController: UIViewController {
 			gameState.playPieceOnBoard(playerId: gameState.savedPlayerId!, board: board, slotIndex: tile) {
 				responseValue in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+				DispatchQueue.main.async() {
 					if case .successState(let state) = responseValue {
 						self.updateCurrentState(state: state)
 					} else {
@@ -149,14 +149,14 @@ class PlayGameViewController: UIViewController {
 			state in
 			
 			if let state = state {
-				dispatch_async(dispatch_get_main_queue()) {
+				DispatchQueue.main.async() {
 					self.updateCurrentState(state: state)
 				}
 			}
 		}
 	}
 	
-	func fetchCurrentState(callback: (UltimateState?) -> ()) {
+	func fetchCurrentState(callback: @escaping (UltimateState?) -> ()) {
 		let gameState = GameStateClient()
 		gameState.getCurrentState(playerId: gameState.savedPlayerId!) {
 			responseValue in
@@ -258,9 +258,8 @@ class PlayGameViewController: UIViewController {
 			return
 		}
 		
-		let timeAfter = dispatch_time(0, Int64(NSEC_PER_SEC))
-		dispatch_after(timeAfter, dispatch_get_main_queue()) { [weak self] in
-			self?.updateCurrentState()
+		DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+			self.updateCurrentState()
 		}
 	}
 	

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5FE5E91E99536600121DF9 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E21E99536600121DF9 /* Board.swift */; };
+		DF5FE5EA1E99536600121DF9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E31E99536600121DF9 /* EndPoint.swift */; };
+		DF5FE5EB1E99536600121DF9 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E41E99536600121DF9 /* Field.swift */; };
+		DF5FE5EC1E99536600121DF9 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E51E99536600121DF9 /* GameState.swift */; };
+		DF5FE5ED1E99536600121DF9 /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E61E99536600121DF9 /* PieceType.swift */; };
+		DF5FE5EE1E99536600121DF9 /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E71E99536600121DF9 /* PlayerType.swift */; };
+		DF5FE5EF1E99536600121DF9 /* SquareGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5E81E99536600121DF9 /* SquareGrid.swift */; };
 		F858AD6C1CC9AF68003E5278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858AD6B1CC9AF68003E5278 /* AppDelegate.swift */; };
 		F858AD711CC9AF68003E5278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F858AD6F1CC9AF68003E5278 /* Main.storyboard */; };
 		F858AD731CC9AF68003E5278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F858AD721CC9AF68003E5278 /* Assets.xcassets */; };
@@ -16,19 +23,19 @@
 		F883830A1CCFD6F1005347F5 /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88383091CCFD6F1005347F5 /* PlayGameViewController.swift */; };
 		F883830C1CCFDB63005347F5 /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883830B1CCFDB63005347F5 /* ScoresTableViewController.swift */; };
 		F88383171CD2F5C0005347F5 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88383161CD2F5C0005347F5 /* MainMenuViewController.swift */; };
-		F8896D881D10E1BE0052941B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D811D10E1BE0052941B /* Board.swift */; };
-		F8896D891D10E1BE0052941B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D821D10E1BE0052941B /* EndPoint.swift */; };
-		F8896D8A1D10E1BE0052941B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D831D10E1BE0052941B /* Field.swift */; };
-		F8896D8B1D10E1BE0052941B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D841D10E1BE0052941B /* GameState.swift */; };
-		F8896D8C1D10E1BE0052941B /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D851D10E1BE0052941B /* PieceType.swift */; };
-		F8896D8D1D10E1BE0052941B /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D861D10E1BE0052941B /* PlayerType.swift */; };
-		F8896D8E1D10E1BE0052941B /* SquareGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D871D10E1BE0052941B /* SquareGrid.swift */; };
 		F8896D921D10E1CB0052941B /* EndPoint-Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D8F1D10E1CB0052941B /* EndPoint-Client.swift */; };
 		F8896D931D10E1CB0052941B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D901D10E1CB0052941B /* Extensions.swift */; };
 		F8896D941D10E1CB0052941B /* GameState-Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8896D911D10E1CB0052941B /* GameState-Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF5FE5E21E99536600121DF9 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/Board.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E31E99536600121DF9 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndPoint.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/EndPoint.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E41E99536600121DF9 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Field.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/Field.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E51E99536600121DF9 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameState.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/GameState.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E61E99536600121DF9 /* PieceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieceType.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/PieceType.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E71E99536600121DF9 /* PlayerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerType.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/PlayerType.swift"; sourceTree = "<absolute>"; };
+		DF5FE5E81E99536600121DF9 /* SquareGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareGrid.swift; path = "/Users/bgohlke/Documents/perfect-apps/demos/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/SquareGrid.swift"; sourceTree = "<absolute>"; };
 		F858AD681CC9AF68003E5278 /* Ultimate Noughts & Crosses iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Noughts & Crosses iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858AD6B1CC9AF68003E5278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F858AD701CC9AF68003E5278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,13 +47,6 @@
 		F88383091CCFD6F1005347F5 /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
 		F883830B1CCFDB63005347F5 /* ScoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
 		F88383161CD2F5C0005347F5 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		F8896D811D10E1BE0052941B /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/Board.swift"; sourceTree = "<absolute>"; };
-		F8896D821D10E1BE0052941B /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndPoint.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/EndPoint.swift"; sourceTree = "<absolute>"; };
-		F8896D831D10E1BE0052941B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Field.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/Field.swift"; sourceTree = "<absolute>"; };
-		F8896D841D10E1BE0052941B /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameState.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/GameState.swift"; sourceTree = "<absolute>"; };
-		F8896D851D10E1BE0052941B /* PieceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieceType.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/PieceType.swift"; sourceTree = "<absolute>"; };
-		F8896D861D10E1BE0052941B /* PlayerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerType.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/PlayerType.swift"; sourceTree = "<absolute>"; };
-		F8896D871D10E1BE0052941B /* SquareGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareGrid.swift; path = "/Users/kjessup/development/PerfectNeu/Perfect-UltimateNaughtsAndCrosses/Sources/UNCShared/SquareGrid.swift"; sourceTree = "<absolute>"; };
 		F8896D8F1D10E1CB0052941B /* EndPoint-Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "EndPoint-Client.swift"; path = "../Shared/EndPoint-Client.swift"; sourceTree = "<group>"; };
 		F8896D901D10E1CB0052941B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Shared/Extensions.swift; sourceTree = "<group>"; };
 		F8896D911D10E1CB0052941B /* GameState-Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GameState-Client.swift"; path = "../Shared/GameState-Client.swift"; sourceTree = "<group>"; };
@@ -101,13 +101,13 @@
 		F858ADAE1CC9B6AE003E5278 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F8896D811D10E1BE0052941B /* Board.swift */,
-				F8896D821D10E1BE0052941B /* EndPoint.swift */,
-				F8896D831D10E1BE0052941B /* Field.swift */,
-				F8896D841D10E1BE0052941B /* GameState.swift */,
-				F8896D851D10E1BE0052941B /* PieceType.swift */,
-				F8896D861D10E1BE0052941B /* PlayerType.swift */,
-				F8896D871D10E1BE0052941B /* SquareGrid.swift */,
+				DF5FE5E21E99536600121DF9 /* Board.swift */,
+				DF5FE5E31E99536600121DF9 /* EndPoint.swift */,
+				DF5FE5E41E99536600121DF9 /* Field.swift */,
+				DF5FE5E51E99536600121DF9 /* GameState.swift */,
+				DF5FE5E61E99536600121DF9 /* PieceType.swift */,
+				DF5FE5E71E99536600121DF9 /* PlayerType.swift */,
+				DF5FE5E81E99536600121DF9 /* SquareGrid.swift */,
 			);
 			name = Shared;
 			path = /Users/kjessup/development/PerfectPresentation/UltimateNoughtsAndCrossesServer/..;
@@ -150,12 +150,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = PerfectlySoft;
 				TargetAttributes = {
 					F858AD671CC9AF68003E5278 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = GD3UZ6UDBJ;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -197,19 +198,19 @@
 			files = (
 				F883830A1CCFD6F1005347F5 /* PlayGameViewController.swift in Sources */,
 				F8896D921D10E1CB0052941B /* EndPoint-Client.swift in Sources */,
+				DF5FE5EF1E99536600121DF9 /* SquareGrid.swift in Sources */,
+				DF5FE5EC1E99536600121DF9 /* GameState.swift in Sources */,
+				DF5FE5EB1E99536600121DF9 /* Field.swift in Sources */,
+				DF5FE5E91E99536600121DF9 /* Board.swift in Sources */,
 				F88383081CCFD6B5005347F5 /* JoinGameViewController.swift in Sources */,
-				F8896D891D10E1BE0052941B /* EndPoint.swift in Sources */,
-				F8896D8E1D10E1BE0052941B /* SquareGrid.swift in Sources */,
+				DF5FE5EA1E99536600121DF9 /* EndPoint.swift in Sources */,
 				F858AD6C1CC9AF68003E5278 /* AppDelegate.swift in Sources */,
+				DF5FE5ED1E99536600121DF9 /* PieceType.swift in Sources */,
 				F88383171CD2F5C0005347F5 /* MainMenuViewController.swift in Sources */,
-				F8896D8A1D10E1BE0052941B /* Field.swift in Sources */,
+				DF5FE5EE1E99536600121DF9 /* PlayerType.swift in Sources */,
 				F8896D941D10E1CB0052941B /* GameState-Client.swift in Sources */,
-				F8896D8C1D10E1BE0052941B /* PieceType.swift in Sources */,
-				F8896D881D10E1BE0052941B /* Board.swift in Sources */,
 				F8896D931D10E1CB0052941B /* Extensions.swift in Sources */,
-				F8896D8B1D10E1BE0052941B /* GameState.swift in Sources */,
 				F883830C1CCFDB63005347F5 /* ScoresTableViewController.swift in Sources */,
-				F8896D8D1D10E1BE0052941B /* PlayerType.swift in Sources */,
 				F88383061CCFD08A005347F5 /* RegisterNickViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +251,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -273,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -296,8 +299,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -313,9 +318,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -332,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.perfectlysoft.Ultimate-Noughts---Crosses-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -346,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.perfectlysoft.Ultimate-Noughts---Crosses-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

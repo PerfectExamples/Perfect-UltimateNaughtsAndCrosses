@@ -115,11 +115,11 @@ public enum AsyncResponse {
 }
 
 public protocol GameState {
-	func createPlayer(nick: String, response: (AsyncResponse) -> ())
-	func getPlayerNick(playerId: Int, response: (AsyncResponse) -> ())
-	func getCurrentState(playerId: Int, response: (AsyncResponse) -> ())
-	func getActiveGame(playerId: Int, response: (AsyncResponse) -> ())
-	func playPieceOnBoard(playerId: Int, board: GridIndex, slotIndex: GridIndex, response: (AsyncResponse) -> ())
-	func createGame(playerId: Int, gameType: PlayerType, response: (AsyncResponse) -> ())
+	func createPlayer(nick: String, response: @escaping (AsyncResponse) -> ())
+	func getPlayerNick(playerId: Int, response: @escaping (AsyncResponse) -> ())
+	func getCurrentState(playerId: Int, response: @escaping (AsyncResponse) -> ())
+	func getActiveGame(playerId: Int, response: @escaping (AsyncResponse) -> ())
+	func playPieceOnBoard(playerId: Int, board: GridIndex, slotIndex: GridIndex, response: @escaping (AsyncResponse) -> ())
+	func createGame(playerId: Int, gameType: PlayerType, response: @escaping (AsyncResponse) -> ())
 }
 

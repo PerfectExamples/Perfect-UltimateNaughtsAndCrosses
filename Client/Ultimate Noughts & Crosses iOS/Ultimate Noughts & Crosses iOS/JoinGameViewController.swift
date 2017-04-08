@@ -20,7 +20,7 @@ class JoinGameViewController: UIViewController {
 			gameState.createGame(playerId: playerId, gameType: PlayerType.MultiPlayer) {
 				response in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+        DispatchQueue.main.async {
 					
 					if case .successInt(let gameId) = response {
 						
@@ -54,7 +54,7 @@ class JoinGameViewController: UIViewController {
 		gameState.concedeGame {
 			response in
 			
-			dispatch_async(dispatch_get_main_queue()) {
+			DispatchQueue.main.async {
 				self.dismiss(animated: true) {}
 			}
 		}
@@ -79,11 +79,15 @@ class JoinGameViewController: UIViewController {
 					return
 				}
 				
-				if case .successInt2(let gameId, _) = response where gameId != invalidId {
-					me.waiting = false
-					dispatch_async(dispatch_get_main_queue()) {
-						me.dismiss(animated: true) {}
-					}
+				if case .successInt2(let gameId, _) = response
+        {
+          if gameId != invalidId
+          {
+            me.waiting = false
+            DispatchQueue.main.async {
+              me.dismiss(animated: true) {}
+            }
+          }
 				} else {
 					me.queueStatusCheck()
 				}
@@ -96,9 +100,8 @@ class JoinGameViewController: UIViewController {
 			return
 		}
 		
-		let timeAfter = dispatch_time(0, Int64(NSEC_PER_SEC))
-		dispatch_after(timeAfter, dispatch_get_main_queue()) { [weak self] in
-			self?.checkStatus()
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+      	self.checkStatus()
 		}
 	}
 }

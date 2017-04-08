@@ -24,7 +24,7 @@ class MainMenuViewController: UIViewController {
 				if case .successInt2(let gameId, _) = responseValue {
 					if gameId != invalidId {
 						// let's continue playing
-						dispatch_async(dispatch_get_main_queue()) {
+						DispatchQueue.main.async() {
 							self.performSegue(withIdentifier: playGameSegue, sender: nil)
 						}
 					} else {
@@ -48,7 +48,7 @@ class MainMenuViewController: UIViewController {
 			gs.createGame(playerId: playerId, gameType: PlayerType.Bot) {
 				response in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+				DispatchQueue.main.async {
 					
 					if case .successInt(_) = response {
 						self.performSegue(withIdentifier: playGameSegue, sender: nil)

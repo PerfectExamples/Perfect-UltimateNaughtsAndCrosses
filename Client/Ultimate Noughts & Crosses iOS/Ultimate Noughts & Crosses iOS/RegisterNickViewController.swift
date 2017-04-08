@@ -23,7 +23,7 @@ class RegisterNickViewController: UIViewController {
 			gameState.getPlayerNick(playerId: playerId) {
 				response in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+				DispatchQueue.main.async() {
 					if case .successString(let nick) = response {
 						GameStateClient.retrievedPlayerNick = nick
 						self.performSegue(withIdentifier: nickRegisteredSegue, sender: nil)
@@ -49,33 +49,36 @@ class RegisterNickViewController: UIViewController {
     }
 	
 	@IBAction func registerNick() {
-		if let nickText = self.nickText.text where !nickText.isEmpty{
-			var gameState = GameStateClient()
+    if let nickText = self.nickText.text {
+      
+      if !nickText.isEmpty {
+        var gameState = GameStateClient()
 			
-			gameState.createPlayer(nick: nickText) {
-				response in
+        gameState.createPlayer(nick: nickText) {
+          response in
 				
-				dispatch_async(dispatch_get_main_queue()) {
+          DispatchQueue.main.async() {
 					
-					if case .successInt(let playerId) = response {
-						gameState.savedPlayerId = playerId
-						self.performSegue(withIdentifier: nickRegisteredSegue, sender: nil)
-					} else if case .error(let code, let msg) = response {
+            if case .successInt(let playerId) = response {
+              gameState.savedPlayerId = playerId
+              self.performSegue(withIdentifier: nickRegisteredSegue, sender: nil)
+            } else if case .error(let code, let msg) = response {
 						
-						let alert = UIAlertController(title: "Error registering nick", message: "\(msg) (\(code))", preferredStyle: .alert)
-						let action = UIAlertAction(title: "OK", style: .default) { _ in }
-						alert.addAction(action)
-						self.present(alert, animated: true) { }
+              let alert = UIAlertController(title: "Error registering nick", message: "\(msg) (\(code))", preferredStyle: .alert)
+              let action = UIAlertAction(title: "OK", style: .default) { _ in }
+              alert.addAction(action)
+              self.present(alert, animated: true) { }
 						
-					} else {
-						
-						let alert = UIAlertController(title: "Error registering nick", message: "Unexpected response type \(response)", preferredStyle: .alert)
-						let action = UIAlertAction(title: "OK", style: .default) { _ in }
-						alert.addAction(action)
-						self.present(alert, animated: true) { }						
-					}
-				}
-			}
+            } else {
+
+              let alert = UIAlertController(title: "Error registering nick", message: "Unexpected response type \(response)", preferredStyle: .alert)
+              let action = UIAlertAction(title: "OK", style: .default) { _ in }
+              alert.addAction(action)
+              self.present(alert, animated: true) { }
+            }
+          }
+        }
+      }
 		}
 	}
 }
